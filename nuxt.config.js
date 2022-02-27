@@ -10,7 +10,7 @@ let dynamicRoutes = () => {
 }
 
 export default {
-  mode: "universal",
+  ssr: true,
   /*
    ** Headers of the page
    */
@@ -56,7 +56,7 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [],
+  buildModules: ["@nuxtjs/tailwindcss"],
   /*
    ** Build configuration
    */
