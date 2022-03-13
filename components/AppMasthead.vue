@@ -1,5 +1,5 @@
 <template>
-  <section class="masthead">
+  <section class="bg-blue-600 text-9xl text-white p-20">
     <h1>{{ tagline }}</h1>
   </section>
 </template>
@@ -8,7 +8,7 @@
 export default {
   data() {
     return {
-      tagline: "Headless WordPress on the JAMstack"
+      tagline: "The Smiling Onion on the JAMstack"
     };
   }
 };
